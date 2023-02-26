@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects - NicknameDev</title>
+    <meta name="description" content="Welcome to the projects page of My Website, where you can see some of my latest projects.">
+    <meta name="keywords" content="web design, web development, HTML, CSS, JavaScript">
+    <meta name="author" content="NicknameOPG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* CSS styles go here */
+      body {
+  font-family: Arial, sans-serif; /* set the font family */
+  color: #333; /* set the text color */
+  margin: 0; /* remove the default margin */
+  padding: 0; /* remove the default padding */
+  background-color: #f5f5f5; /* set the background color */
+  background-image: url('../download.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+      }
+      h1 {
+  text-align: center; /* center the heading */
+  color: #00b8d4; /* add a color to the heading */
+}
+      h2 {
+        color: green;
+      }
+
+ul {
+  list-style: none; /* remove the default list style */
+  padding: 0; /* remove the default padding */
+  margin: 0; /* remove the default margin */
+}
+
+li {
+  margin: 20px 0; /* add some margin to the list items */
+}
+
+img {
+  display: block; /* display the images as block elements */
+  margin: 0 auto; /* center the images */
+  border-radius: 3px; /* add rounded corners to the images */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* add a subtle shadow to the images */
+  color: white;
+}
+#top-bar {
+  display: flex; /* display the top bar as a flex container */
+  align-items: center; /* align the items vertically */
+  background-color: #333; /* add a dark background color */
+  color: #fff; /* set the text color to white */
+  height: 50px; /* set the height of the top bar */
+}
+
+#logo {
+  flex: 1; /* allow the logo to take up all available space */
+}
+
+#logo a {
+  display: block; /* display the logo as a block element */
+  padding: 0 20px; /* add some padding to the logo */
+  font-size: 18px; /* set the font size of the logo */
+  line-height: 50px; /* set the line height to match the height of the top bar */
+  text-decoration: none; /* remove the underline from the logo */
+}
+
+#links {
+  display: flex; /* display the links as a flex container */
+}
+
+#links a {
+  display: block; /* display the links as block elements */
+  padding: 0 20px; /* add some padding to the links */
+  line-height: 50px; /* set the line height to match the height of the top bar */
+  text-decoration: none; /* remove the underline from the links */
+  color: #fff; /* set the text color to white */
+}
+
+#links a:hover {
+  background-color: #444; /* add a darker background color on hover */
+}
+#current a {
+  color:green;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="top-bar">
+    <!-- Add a logo -->
+    <div id="logo">
+      <a href="/">NicknameDev</a>
+    </div>
+
+    <!-- Add some links -->
+    <div id="links">
+      <a id="current" href="/about">About</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+    </div>
+    </div>
+    <!-- Add a heading for the projects page -->
+    <h1>Projects</h1>
+
+    <!-- Add a list of your projects -->
+    <ul>
+      <li>
+        <h2>Project 1</h2>
+        <img src="/path/to/project1.jpg" alt="Project 1" width="200">
+        <p></p>
+      </li>
+      <li>
+        <h2>Project 2</h2>
+        <img src="/path/to/project2.jpg" alt="Project 2" width="200">
+        <p></p>
+      </li>
+      <li>
+        <h2>Project 3</h2>
+        <img src="/path/to/project3.jpg" alt="Project 3" width="200">
+        <p></p>
+      </li>
+    </ul>
+  </body>
+</html>

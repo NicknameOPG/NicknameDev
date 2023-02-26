@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* add a light gray background color */
+  background-image: url('download.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: #00b8d4;
+}
+
+h2 {
+  color: #4caf50;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block; /* display the images inline */
+  margin: 10px;
+}
+
+img {
+  width: 200px; /* set the width of the images */
+  border: 1px solid #ccc; /* add a border to the images */
+  border-radius: 3px; /* add rounded corners to the images */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* add a subtle shadow to the images */
+}
+
+img:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a stronger shadow on hover */
+}
+
+
+a {
+  color: #00b8d4;
+  text-decoration: none;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  background-color: #fff; /* add a white background color to the form */
+  border: 1px solid #ccc; /* add a border to the form */
+  border-radius: 3px; /* add rounded corners to the form */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* add a subtle shadow to the form */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #43a047;
+}
+#top-bar {
+  display: flex; /* display the top bar as a flex container */
+  align-items: center; /* align the items vertically */
+  background-color: #333; /* add a dark background color */
+  color: #fff; /* set the text color to white */
+  height: 50px; /* set the height of the top bar */
+}
+
+#logo {
+  flex: 1; /* allow the logo to take up all available space */
+}
+
+#logo a {
+  display: block; /* display the logo as a block element */
+  padding: 0 20px; /* add some padding to the logo */
+  font-size: 18px; /* set the font size of the logo */
+  line-height: 50px; /* set the line height to match the height of the top bar */
+  text-decoration: none; /* remove the underline from the logo */
+}
+
+#links {
+  display: flex; /* display the links as a flex container */
+}
+
+#links a {
+  display: block; /* display the links as block elements */
+  padding: 0 20px; /* add some padding to the links */
+  line-height: 50px; /* set the line height to match the height of the top bar */
+  text-decoration: none; /* remove the underline from the links */
+  color: #fff; /* set the text color to white */
+}
+
+#links a:hover {
+  background-color: #444; /* add a darker background color on hover */
+}
